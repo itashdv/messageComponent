@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mobileSupportWarning {
+  text-align: center;
+  display: none;
+}
+.wrapper {
+  display: flex;
+}
+section {
+  margin-bottom: 30px;
+}
+.settings {
+  width: 40%;
+  padding: 12px;
+}
+.title {
+  margin-bottom: 6px;
+}
+.timeFrameLable {
+  margin: 0 4px;
+}
+.timeFrameInput {
+  width: 30px;
+  text-align: center;
+}
+.daysOfTheWeekBox {
+  display: flex;
+  justify-content: space-around;
+  width: 220px;
+}
+.messageText {
+  min-width: 222px;
+  min-height: 60px;
+  padding: 6px;
+}
+.nameVariables {
+  text-decoration: none;
+}
+.messageImgBox {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #c3c3c3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.imageText {
+  min-width: 222px;
+  min-height: 40px;
+  padding: 6px;
+  margin-top: 6px;
+}
+.numberInput {
+  width: 60px;
+  text-align: center;
+  padding: 6px;
+}
+/* showing up and down arrows by default in Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+.list {
+  width: 60%;
+  padding: 12px;
+}
+table {
+  width: 90%;
+  margin: 30px auto;
+}
+.eyeIcon {
+  max-height: 20px;
+  margin-top: 4px;
+}
+.pagination {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+.paginationLinks {
+  text-decoration: none;
+  font-size: 20px;
+  color: #4FC3F7;
+}
+.totalNumbers {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mobileSupportWarning {
+    display: block;
+  }
+  .wrapper {
+    display: none;
+  }
+}
