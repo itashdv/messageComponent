@@ -105,40 +105,40 @@ messageComponentTemplate.innerHTML = `
         <tr>
           <td>
             <a href="#">
-              <img class="eyeIcon" src="img/botEye.svg" />
+              <img class="eyeIcon" src="http://localhost:8080/ds/img/messageComponent/botEye.svg" />
             </a>
           </td>
           <td>79147210603</td>
           <td>09.09.20</td>
           <td>07.18</td>
           <td>
-            <img class="eyeIcon" src="img/checkBlue.svg" />
+            <img class="eyeIcon" src="http://localhost:8080/ds/img/messageComponent/checkBlue.svg" />
           </td>
         </tr>
         <tr>
           <td>
             <a href="#">
-              <img class="eyeIcon" src="img/botEye.svg" />
+              <img class="eyeIcon" src="http://localhost:8080/ds/img/messageComponent/botEye.svg" />
             </a>
           </td>
           <td>79147210603</td>
           <td>09.09.20</td>
           <td>07.18</td>
           <td>
-            <img class="eyeIcon" src="img/checkBlue.svg" />
+            <img class="eyeIcon" src="http://localhost:8080/ds/img/messageComponent/checkBlue.svg" />
           </td>
         </tr>
         <tr>
           <td>
             <a href="#">
-              <img class="eyeIcon" src="img/botEye.svg" />
+              <img class="eyeIcon" src="http://localhost:8080/ds/img/messageComponent/botEye.svg" />
             </a>
           </td>
           <td>79147210603</td>
           <td>09.09.20</td>
           <td>07.18</td>
           <td>
-            <img class="eyeIcon" src="img/checkBlue.svg" />
+            <img class="eyeIcon" src="http://localhost:8080/ds/img/messageComponent/checkBlue.svg" />
           </td>
         </tr>
       </table>
