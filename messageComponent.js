@@ -2,7 +2,6 @@ const messageComponentTemplate = document.createElement('template');
 
 messageComponentTemplate.innerHTML = `
   <link rel="stylesheet" href="messageComponent.css" />
-  <h3 class="mobileSupportWarning">This page does not support mobile devices!</h3>
   <div class="wrapper">
     <div class="settings">
       <section>

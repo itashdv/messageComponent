@@ -1,14 +1,14 @@
+all {
+  initial;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.mobileSupportWarning {
-  text-align: center;
-  display: none;
-}
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 section {
   margin-bottom: 30px;
@@ -93,10 +93,5 @@ table {
 }
 
 @media only screen and (max-width: 1000px) {
-  .mobileSupportWarning {
-    display: block;
-  }
-  .wrapper {
-    display: none;
-  }
+
 }
